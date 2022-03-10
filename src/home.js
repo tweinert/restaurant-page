@@ -1,0 +1,1 @@
+// createHome, export default loadHome (maybe createParagraph(text))

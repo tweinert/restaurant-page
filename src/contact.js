@@ -1,0 +1,1 @@
+// createContact, export default loadContact
