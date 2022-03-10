@@ -1,0 +1,40 @@
+.content {
+    position: relative;
+    margin: 0 auto;
+    border: 3px solid blue;
+    border-radius: 25px;
+    max-width: 80%;
+}
+
+.heading-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    max-width: 60%;
+}
+
+.description-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    max-width: 60%;
+}
+
+.hours-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    max-width: 60%;
+}
+
+.location-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    max-width: 60%;
+}
