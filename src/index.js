@@ -1,5 +1,5 @@
-import loadHome from "./home";
+import initializeWebsite from "./website";
 
-loadHome();
+initializeWebsite();
 
 console.log("this should show up");

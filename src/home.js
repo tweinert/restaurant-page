@@ -1,17 +1,7 @@
-// createHome, export default loadHome (maybe createParagraph(text))
 function createHome() {
     const home = document.createElement("div");
     home.classList.add("home");
-
-    // heading-container
-    const headingContainer = document.createElement("div");
-    headingContainer.classList.add("heading-container");
-
-    const nameHeading = document.createElement("h1");
-    nameHeading.textContent = "Restaurant Name";
-
-    headingContainer.appendChild(nameHeading);
-
+    
     // description-container
     const descriptionContainer = document.createElement("div");
     descriptionContainer.classList.add("description-container");
@@ -49,7 +39,6 @@ function createHome() {
     locationContainer.appendChild(locationText);
 
     // append to home
-    home.appendChild(headingContainer);
     home.appendChild(descriptionContainer);
     home.appendChild(hoursContainer);
     home.appendChild(locationContainer)
@@ -58,9 +47,9 @@ function createHome() {
 }
 
 function loadHome() {
-    const content = document.getElementById("content");
-    content.textContent = "";
-    content.appendChild(createHome());
+    const main = document.getElementById("main");
+    main.textContent = "";
+    main.appendChild(createHome());
 }
 
 export default loadHome;
