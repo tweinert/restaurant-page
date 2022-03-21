@@ -4,9 +4,13 @@ function createMenu() {
     const menu = document.createElement("div");
     menu.classList.add("menu");
 
-    const menuItem1 = createMenuItem("Pizza", "Meat, Cheese, Probably some veg.");
+    const menuItem1 = createMenuItem("White Kibble", 
+        "Soy Protein and mushroom base with cheese powder.");
+    const menuItem2 = createMenuItem("Red Kibble",
+        "Deep-fried, heavily spiced red bean paste balls");
 
     menu.appendChild(menuItem1);
+    menu.appendChild(menuItem2);
 
     return menu;
 }

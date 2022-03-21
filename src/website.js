@@ -7,7 +7,7 @@ function createHeader() {
 
     const restaurantName = document.createElement("h1");
     restaurantName.classList.add("restaurant-name");
-    restaurantName.textContent = "Restaurant Name";
+    restaurantName.textContent = "Dock 12 Bar";
 
     header.appendChild(restaurantName);
     header.appendChild(createNav());
