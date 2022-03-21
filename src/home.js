@@ -4,7 +4,7 @@ function createHome() {
     
     // description-container
     const descriptionContainer = document.createElement("div");
-    descriptionContainer.classList.add("description-container");
+    descriptionContainer.classList.add("main-div");
 
     const descriptionText = document.createElement("p");
     descriptionText.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
@@ -13,7 +13,7 @@ function createHome() {
 
     // hours-container
     const hoursContainer = document.createElement("div");
-    hoursContainer.classList.add("hours-container");
+    hoursContainer.classList.add("main-div");
 
     const hoursHeader = document.createElement("h3");
     hoursHeader.textContent = "Hours";
@@ -27,7 +27,7 @@ function createHome() {
 
     // location-container
     const locationContainer = document.createElement("div");
-    locationContainer.classList.add("location-container");
+    locationContainer.classList.add("main-div");
 
     const locationHeader = document.createElement("h3");
     locationHeader.textContent = "Location";
