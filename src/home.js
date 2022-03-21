@@ -33,7 +33,7 @@ function createHome() {
     locationHeader.textContent = "Location";
 
     const locationText = document.createElement("p");
-    locationText.textContent = "1 Fake Street, FakeTown";
+    locationText.textContent = "Port level, near Dock 12.";
 
     locationContainer.appendChild(locationHeader);
     locationContainer.appendChild(locationText);
